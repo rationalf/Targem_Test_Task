@@ -14,17 +14,6 @@ STL-контейнеров, `std::string` и умных указателей. П
 
 ## Сборка
 
-### Через CMake
-
-```sh
-cmake -S . -B build
-cmake --build build
-```
-
-Исполняемый файл `string_sort` (или `string_sort.exe` на Windows) появится в каталоге `build`.
-
-### Напрямую компилятором
-
 ```sh
 g++ -std=c++11 -Wall -Wextra String.cpp main.cpp -o string_sort
 ```
